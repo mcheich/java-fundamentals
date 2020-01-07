@@ -3,13 +3,19 @@ package loops;
 public class Message5Times {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		message5Times("Message");
 
 	}
 	
-	public static String message5Times(String str) {
-		// TODO Auto-generated method stub
-		return "Message";
+	public static int message5Times(String str) {
+
+		int counter = 0;
+		while(counter < 5) {
+			System.out.println("Message");
+			counter++;
+		}
+		return counter;
 	}
 
 }
